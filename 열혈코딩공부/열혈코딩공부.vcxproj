@@ -144,6 +144,7 @@
     <ClCompile Include="For.c" />
     <ClCompile Include="Function.c" />
     <ClCompile Include="Function_problem.c" />
+    <ClCompile Include="gitTest.c" />
     <ClCompile Include="Hello.c" />
     <ClCompile Include="If.c" />
     <ClCompile Include="Localvariable_problem.c" />
