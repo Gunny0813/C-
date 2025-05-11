@@ -4,7 +4,7 @@ void oddnum(int arr[10]);
 void evennum(int arr[10]);
 int main_challenge_part2_1()
 {
-	printf("hello world");
+	
 	printf("총 10개의 숫자 입력");
 	int arr[10];
 	for (int i = 0; i < 10; i++) 
