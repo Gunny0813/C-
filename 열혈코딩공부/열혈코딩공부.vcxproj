@@ -138,6 +138,7 @@
     <ClCompile Include="challenge3(UCLID).c" />
     <ClCompile Include="challenge_part2_1.c" />
     <ClCompile Include="challenge_part2_2.c" />
+    <ClCompile Include="challenge_part2_3.c" />
     <ClCompile Include="Continue&amp;Break.c" />
     <ClCompile Include="Dowhile.c" />
     <ClCompile Include="Factorial.c" />

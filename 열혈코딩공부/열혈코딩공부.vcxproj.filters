@@ -93,5 +93,8 @@
     <ClCompile Include="gitTest.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="challenge_part2_3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
