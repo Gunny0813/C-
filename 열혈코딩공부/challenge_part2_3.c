@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(void) {
+int main_challenge_part2_3(void) {
 	int arr1[10];
 	int arr2[10];
 	int i = 0;
