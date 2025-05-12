@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-int main(void) {
+int main_challenge_part2_4(void) {
 	char ch[100];
 	printf("문자열입력");
 	scanf("%s", ch);

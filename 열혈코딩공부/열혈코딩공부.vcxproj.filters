@@ -99,5 +99,8 @@
     <ClCompile Include="challenge_part2_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="challenge_part2_5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
