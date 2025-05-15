@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 
 #include <stdio.h>
 
-int main(void)
+int main_challenge_part2_5(void)
 {
 	int arr[4] = { 3,2,4,1 };
 	BubbleSort(arr, sizeof(arr) / sizeof(int));

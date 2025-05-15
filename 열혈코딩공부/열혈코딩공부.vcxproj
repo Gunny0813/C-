@@ -151,6 +151,7 @@
     <ClCompile Include="Hello.c" />
     <ClCompile Include="If.c" />
     <ClCompile Include="Localvariable_problem.c" />
+    <ClCompile Include="MultiArray.c" />
     <ClCompile Include="Pointer.c" />
     <ClCompile Include="Pointer_challenge.c" />
     <ClCompile Include="Recursive.c" />
