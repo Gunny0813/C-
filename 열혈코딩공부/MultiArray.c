@@ -3,21 +3,18 @@
 
 int main(void)
 {
-	int arr[3][9];
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 9; j++)
-		{
-			arr[i][j] = (i + 2) * (j + 1);
+	int A[2][4] = { {1,2,3,4},{5,6,7,8} };
+	int B[4][2];
+	for (int i = 0; i < 2; i++) {
+		for (int j = 0; j < 4; j++) {
+			B[j][i] = A[i][j];
 		}
 	}
-	for (int i = 0; i < 3; i++)
-	{
-		for (int j = 0; j < 9; j++)
-		{
-			printf("%d ", arr[i][j]);
+	for (int i = 0; i < 2; i++) {
+		for (int j = 0; j < 4; j++) {
+			printf("%d ", B[j][i]);
 		}
-		printf("\n");
 	}
+	
 
 }
