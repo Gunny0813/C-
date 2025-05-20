@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS 
 #include<stdio.h>
 
-int main(void)
+int main_MultiArray(void)
 {
 	int arr[5][5];
 	for (int i = 0; i < 4; i++) {

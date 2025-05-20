@@ -142,6 +142,7 @@
     <ClCompile Include="challenge_part2_4.c" />
     <ClCompile Include="challenge_part2_5.c" />
     <ClCompile Include="Continue&amp;Break.c" />
+    <ClCompile Include="DoublePointer.c" />
     <ClCompile Include="Dowhile.c" />
     <ClCompile Include="Factorial.c" />
     <ClCompile Include="For.c" />

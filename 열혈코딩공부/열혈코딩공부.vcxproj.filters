@@ -105,5 +105,8 @@
     <ClCompile Include="MultiArray.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DoublePointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
