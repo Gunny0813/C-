@@ -1,19 +1,39 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
-int main(void)
+void MaxAndMin(int arr[],int size,int**mxptr,int**mnptr)
 {
-	int num1 = 10, num2 = 20, num3 = 30;
-	int* ptr1 = &num1;
-	int* ptr2 = &num2;
-	int* ptr3 = &num3;
+	int* max, * min;
+	int i;
 
-	int * ptrArr[] = { ptr1, ptr2, ptr3 };
-	int ** dptr = ptrArr;
+	max = &arr[0];
+	min = &arr[0];
+	for (i = 0; i < size; i++) {
+		if (*max < arr[i]){
+			max = &arr[i];
+		}
+		if (*min > arr[i]) {
+			min = &arr[i];
+		}
+	}
 
-	printf("%d %d %d\n", *(ptrArr[0]), *(ptrArr[1]), *(ptrArr[2]));
-	printf("%d %d %d\n", *(dptr[0]), *(dptr[1]), *(dptr[2]));
-
-
+	*mxptr = max;
+	*mnptr = min;
 
 }
+
+
+int main(void){
+	int* maxptr;
+	int* minptr;
+	int arr[5];
+	int i;
+	for (i = 0; i < 5; i++) {
+		scanf("%d", &arr[i]);
+	}
+
+	MaxAndMin(arr, sizeof(arr) / sizeof(int), &maxptr, &minptr);
+	printf("%d %d", *maxptr, *minptr);
+	return 0;
+}
+
